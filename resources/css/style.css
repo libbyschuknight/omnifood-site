@@ -37,9 +37,10 @@ section {
 
 /* HEADINGS */
 
-h1, h2 {
+h1,
+h2,
+h3 {
   font-weight: 300;
-  letter-spacing: 1px;
   text-transform: uppercase;
 }
 
@@ -49,6 +50,7 @@ h1 {
   margin-bottom: 20px;
   margin-top: 0;
   word-spacing: 4px;
+  letter-spacing: 1px;
 }
 
 h2 {
@@ -56,6 +58,8 @@ h2 {
   margin-bottom: 30px;
   text-align: center;
   word-spacing: 2px;
+  letter-spacing: 1px;
+
 }
 
 h2:after {
@@ -69,6 +73,15 @@ h2:after {
   word-spacing: 4px;
 }
 
+h3 {
+  font-size: 110%;
+  margin-bottom: 15px;
+}
+
+.box {
+  padding: 1%;
+}
+
 /* ----- PARAGRAPHS ----- */
 
 .long-copy {
@@ -78,6 +91,18 @@ h2:after {
   width: 70%;
 }
 
+.box p {
+  font-size: 90%;
+  line-height: 145%;
+}
+
+/* ---- ICONS --- */
+.icon-big {
+  font-size: 350%;
+  display: block;
+  color: #e67e22;
+  margin-bottom: 10px;
+}
 
 /* ----- BUTTONS ----- */
 
