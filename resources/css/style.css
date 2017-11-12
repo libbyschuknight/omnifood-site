@@ -209,14 +209,16 @@ header {
 }
 
 
+
+
 /* ----------------------------------------------- */
 /* MEALS */
 /* ----------------------------------------------- */
 
-/*
+
 .section-meals {
     padding: 0;
-}*/
+}
 
 .meals-showcase {
   list-style: none;
@@ -229,12 +231,22 @@ header {
   width: 25%;
 }
 
-.meal-photos {
+.meal-photo {
   width: 100%;
   margin: 0;
+  overflow: hidden;
+  background-color: #000;
 }
 
-.meal-photos img {
+.meal-photo img {
+  opacity: 0.7;
   width: 100%;
   height: auto;
+  transform: scale(1.15);
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+.meal-photo img:hover {
+  opacity: 1.0;
+  transform: scale(1.03);
 }
