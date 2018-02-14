@@ -12,13 +12,15 @@ Orange color #e67e22
   padding: 0;
 }
 
-html {
+html,
+body {
   background-color: #fff;
   color: #555555;
   font-family: 'Lato', 'Arial', sans-serif;
   font-size: 20px;
   font-weight: 300;
   text-rendering: optimizeLegibility;
+  overflow-x: hidden;
 }
 
 .clearfix { zoom: 1 }
