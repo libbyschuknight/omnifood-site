@@ -82,7 +82,11 @@
     font-size: 100%;
   }
 
-  .sticky .main-nav { margin-top: 10px; }
+
+  .sticky .main-nav {
+    margin-top: 10px;
+    display: none;
+  }
 
   .sticky .main-nav li a:link,
   .sticky .main-nav li a:visited {
