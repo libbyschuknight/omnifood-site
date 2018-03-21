@@ -95,10 +95,6 @@ $('a[href*="#"]')
 });
 
 
-
-
-
-
 // Simple jquery and how to do in vanilla js
 
 // jQuery
